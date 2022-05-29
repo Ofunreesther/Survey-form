@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: hsl(120, 14%, 85%);
+}
+body {
+    background-color: coral;
+}
+textarea  {
+box-sizing: border-box;
+border-radius: 4px;
+padding: 10px 10px;
+}
+#name-label {
+    padding: 5px;
+    margin: 5px 4px;
+    border-radius: 4px;
+}
+#email-label {
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 4px;
+}
+#number-label {
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 4px; 
+}
+#dropdown {
+    padding: 5px;
+    margin: 5px 4px;
+    border-radius: 4px;
+}
+#submit {
+    padding: 4px;
+    border-radius: 4px;
+    margin: 5px 4px;
+    width: 10%;
+    color: #e9f0e3;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}

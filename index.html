@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <head><title>survey form</title></head> 
+        <h1 id="title">REGISTRATION FORM</h1>
+        <body>
+        <p id="description">Fill the required informations correctly:</p>
+      <form id="survey-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name-label" name="name" placeholder="enter name" required><br>
+             <label for="email">Email:</label>
+          <input type="text" id="email-label" name="email" placeholder="enter email"><br> 
+           <label for="number">Number:</label>
+           <input type="tel" id="number-label" name="number" min="1" maxlength="11" placeholder="enter phone number" required><br>
+           <label for="required-course">Choose a required study course:</label>
+           <select name="required-course" id="dropdown">
+               <option value="medicine">Medicine</option>
+               <option value="physics">Physics</option>
+               <option value="accounting">Accounting</option>
+            </select><br>
+            <p>Pick your age category:</p>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender"><br>
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="gender"><br>
+            <p>What sports do you engage in?</p>
+            <label for="sports">Swimming</label>
+            <input type="checkbox" id="skills" value="swimming"><br>
+            <label for="sports">Running</label>
+            <input type="checkbox" id="sports" value="running"><br>
+            <label for="sports">Basketball</label>
+            <input type="checkbox" id="sports" value="basketball"><br>
+            <label for="sports">Football</label>
+            <input type="checkbox" id="sports" value="football"><br>
+             <label for="comments">Comments:</label>
+          <textarea id="textarea" placeholder="Comments"></textarea><br>
+          <button id="submit">Submit</button>
+          
+      </form>      
+    </body>
+</html>
